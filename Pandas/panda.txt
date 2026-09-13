@@ -1,0 +1,31 @@
+1. Read: df=pd.read_csv("")
+2. Save: df=pd.to_csv("")
+3. Adding: a)df["new col"]=[data] 
+           b)df.insert(location,"name",data)
+4. Removing: a) single-> df.drop(columns=["col_name"],inplace=true)k
+             b)multiple-> df.drop(columns=["col1_name","col2_name"],inplace=true)
+5. Conditions: a) single-> highSalary=df[df["salary"]>50000]  
+               b)multiple-> abc=df[(df["salary"]>30000) & (df["age"]>25) ] 
+6. Selecting     a)single-> subset=df["name"]
+    Columns :    b)multiple-> subset=df["name","age"]
+7. Missing &   a) remove records with empty data df.dropna(axis=0,inplace=True)
+   Handling :  b) fill missing data with value df.fillna(value,inplace=True)
+               c)  filling data with an estimation assessing the pattern
+                   d.interpolate(method='linear',axis=0,inplace=True)
+8. Merging:  merged = pd.merge(df1, df2, on="ID", how="inner")
+             a) Inner Join (only matching IDs in both)
+             b) Left Join (all from df1, add match from df2)
+             c) Right Join (all from df2, add match from df1)
+             d) Outer Join (all from both, fill missing with NaN)
+9. Grouping : a)grp = df.groupby("rank")
+              b)grup = df.groupby(["name","age"])
+10. Grouping &    a) grouped = df.groupby("age")["salary"].sum()
+    Aggregation : b) group = df.groupby(["age","name"])["salary"].sum()
+11. Concatenation : a) Concatenate vertically (axis=0)
+                       result = pd.concat([df1, df2], axis=0, ignore_index=True)
+                    b) Concatenate vertically (axis=1)
+                       result1 = pd.concat([df1, df2], axis=1, ignore_index=True)
+
+
+
+
