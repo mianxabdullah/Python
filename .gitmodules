@@ -1,0 +1,3 @@
+[submodule "Scikit-Learn/Supervised_Learning/Customer_Churn_Predictor"]
+	path = Scikit-Learn/Supervised_Learning/Customer_Churn_Predictor
+	url = https://github.com/mianxabdullah/Customer_Churn_Predictor
