@@ -1,3 +1,6 @@
 [submodule "Scikit-Learn/Supervised_Learning/Customer_Churn_Predictor"]
 	path = Scikit-Learn/Supervised_Learning/Customer_Churn_Predictor
 	url = https://github.com/mianxabdullah/Customer_Churn_Predictor
+[submodule "Scikit-Learn/Unsupervised_Learning/Movie_Recommendation_System"]
+	path = Scikit-Learn/Unsupervised_Learning/Movie_Recommendation_System
+	url = https://github.com/mianxabdullah/Movie_Recommendation_System
