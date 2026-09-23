@@ -4,3 +4,6 @@
 [submodule "Scikit-Learn/Unsupervised_Learning/Movie_Recommendation_System"]
 	path = Scikit-Learn/Unsupervised_Learning/Movie_Recommendation_System
 	url = https://github.com/mianxabdullah/Movie_Recommendation_System
+[submodule "Seaborn/Spotify_Dashboard"]
+	path = Seaborn/Spotify_Dashboard
+	url = https://github.com/mianxabdullah/Spotify_Dashboard
